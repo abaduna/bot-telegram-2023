@@ -1,4 +1,42 @@
 img{
     width: 150px;
     height: 375px;
+    border: 9px solid black;
+    padding-bottom: 10px;
+    transform: scale(1.2) rotate(-12deg);
+    transition-duration: 800ms;
+    transition-timing-function: ease-out;
+    -webkit-transform: scale(1.2) rotate(-12deg);
+    -moz-transform: scale(1.2) rotate(-12deg);
+    -ms-transform: scale(1.2) rotate(-12deg);
+    -o-transform: scale(1.2) rotate(-12deg);
+}
+body{
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card{
+    background: #fdc6308c; 
+    -webkit-box-shadow: 14px 16px 23px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 14px 16px 23px 0px rgba(0,0,0,0.22);
+    box-shadow: 14px 16px 23px 0px rgba(0,0,0,0.22);
+}
+.boton{
+    background: #e4f4078c; 
+    color: black;
+}
+.boton:hover{
+    background: #fc8f008c; 
+    color: black;
+}
+img:hover{
+    transform: scale(1.2) rotate(12deg);
+    transition-duration: 800ms;
+    transition-timing-function: ease-out;
+    -webkit-transform: scale(1.2) rotate(12deg);
+    -moz-transform: scale(1.2) rotate(12deg);
+    -ms-transform: scale(1.2) rotate(12deg);
+    -o-transform: scale(1.2) rotate(12deg);
 }
