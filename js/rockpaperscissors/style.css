@@ -1,0 +1,22 @@
+.col{
+    margin-top: 30px;
+    
+    align-content: center;
+}
+i{
+    border: 7px solid black;
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+i:hover{
+    background-color: rgba(255, 0, 0, 0.618);
+
+}
+.jugador2:hover{
+    background-color: rgba(0, 0, 255, 0.497);
+}
